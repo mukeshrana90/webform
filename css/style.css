@@ -8,6 +8,7 @@
 /*Custom Upload*/
 .customImageUpload  figure {
     height: 100px;
+    min-width: 100px;
     width: 100px;
     overflow: hidden;
     margin-right: 20px;
