@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <header class="siteHeader">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Site Name</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Site header end here -->
+
+        <div class="contentContainer py-5">
+            <div class="container">
+                <h4 class="pb-3">Page Title</h4>
+                <form>
+
+                    <div class="box mb-4">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="customImageUpload d-flex">
+                                    <figure>
+                                        <img src="images/1.png" alt="" class="profilePic" />
+                                    </figure>
+                                    <div class="pt-2 mt-1">
+                                        <h6>Upload Image</h6>
+                                        <div class="dummyUploadBtn">
+                                            <input type="file" class="picture">
+                                            <span>Select Image</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-4 text-right mt-4 pt-1">
+                                <button class="btn btn-primary px-4">Save</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Brand</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Card Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Card Program</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Card Type</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                        <option value="option 1">Option 3</option>
+                                        <option value="option 1">Option 4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Fee year 1</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Fee year 2</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="applePlay">
+                                    <label class="custom-control-label" for="applePlay">Apple Play</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="googlePlay">
+                                    <label class="custom-control-label" for="googlePlay">Google Play</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="partnerCard">
+                                    <label class="custom-control-label" for="partnerCard">Partner Card</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="BankAccount">
+                                    <label class="custom-control-label" for="BankAccount">Bank Account</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="VideoIdent">
+                                    <label class="custom-control-label" for="VideoIdent">Video Ident</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="Schufa">
+                                    <label class="custom-control-label" for="Schufa">Schufa</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Partnercard Fee</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <label>Partnercard explanation</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Interest and Balance</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Interest Positive Balance</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Interest Negative Balance</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Balance Settling</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">ATM Fees</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>ATM Fees</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                        <option value="option 1">Option 3</option>
+                                        <option value="option 1">Option 4</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>ATM Fees Germany</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>ATM Fees Eurozone</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>ATM Fees Foreign currency EU</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>ATM Fees Outside EU</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Payment Fees</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Payment Fees</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                        <option value="option 1">Option 3</option>
+                                        <option value="option 1">Option 4</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Payment Fees Germany</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Payment Fees Eurozone</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Payment Fees Foreign currency EU</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Payment Fees Outside EU</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="d-none d-md-block">&nbsp;</label>
+                                    <input type="text" placeholder="Explanation text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Insurance</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Travel insurance</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Travel insurance explanation</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Car Rental insurance</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Car rental insurance explanation</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Bonus</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Cashback</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Cashback Conditions</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Rewards Program</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Rewards Program Conditions</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Discount</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Discount conditions</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Travel Service</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Travel Service</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Travel Service conditions</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Airport Lounge</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="option 1">Option 1</option>
+                                        <option value="option 1">Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Airport Lounge program</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Customer group</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="Private">
+                                    <label class="custom-control-label" for="Private">Private</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="Freelance">
+                                    <label class="custom-control-label" for="Freelance">Freelance</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="Business">
+                                    <label class="custom-control-label" for="Business">Business</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Category</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="Travel">
+                                    <label class="custom-control-label" for="Travel">Travel</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="Premium">
+                                    <label class="custom-control-label" for="Premium">Premium</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="Airline">
+                                    <label class="custom-control-label" for="Airline">Airline</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Additional Text</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Additional Text</label>
+                                    <textarea class="form-control" placeholder=""></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <h5 class="pb-3 pt-5">Links</h5>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Add Links here</label>
+                                    <input type="text" class="form-control" placeholder="https://">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box End Here -->
+
+                    <button class="btn btn-lg btn-primary px-5 mt-4">SAVE</button>
+
+                </form>
+            </div>
+        </div>
+        <!-- Content Container end here -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+
+        $(function () {
+            $(":file.picture").change(function () {
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = imageIsLoaded;
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+
+        function imageIsLoaded(e) {
+            $('.profilePic').attr('src', e.target.result);
+        }
+
+    </script>
+</body>
+
+</html>

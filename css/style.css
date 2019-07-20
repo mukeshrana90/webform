@@ -1,0 +1,49 @@
+.box {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08)
+}
+
+/*Custom Upload*/
+.customImageUpload  figure {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 0;
+}
+.customImageUpload figure img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+.customImageUpload h6 {
+    padding-bottom: 10px;
+}
+.dummyUploadBtn {
+    width: 130px;
+    overflow: hidden;
+    background: #ddd;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+    border-radius: 30px;    
+}
+.dummyUploadBtn input {
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;    
+    z-index: 2;
+}
